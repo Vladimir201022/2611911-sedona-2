@@ -2,7 +2,7 @@
 
 * Студент: [Владимир](https://up.htmlacademy.ru/htmlcss-individual/2/user/2611911).
 * Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
-*Сайт: [Sedona](https://vladimir201022.github.io/2611911-sedona-2/)
+* Сайт: [Sedona](https://vladimir201022.github.io/2611911-sedona-2/).
 
 ---
 
