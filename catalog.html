@@ -34,7 +34,20 @@
 </header>
 <main>
   <section class="catalog-products">
-    <h2 class="visually-hidden">Каталог гостиниц</h2>
+    <h1 class="">Каталог гостиниц</h1>
+
+    <ol class="breadcrumbs">
+      <li class="breadcrumbs-item">
+        <a class="breadcrumbs-link-index" href="index.html">
+          <span class="visually-hidden">Главная страница<span>
+        </a>
+      </li>
+      <li>
+        <a class="breadcrumbs-link" href="catalog.html">
+          Гостиницы
+          </a>
+      </li>
+    </ol>
 
     <form role="search" method="get" action="https://echo.htmlacademy.ru/">
 
@@ -95,12 +108,6 @@
       </div>
       <button type="submit" class="apply-button">Применить фильтры</button>
       <button type="reset" class="apply-button">Сбросить</button>
-      <a href="#" class="button button-light">
-        <span class="visually-hidden">Показать список</span>
-      </a>
-      <a class="button" href="#">
-        <span class="visually-hidden">Показать карточки</span>
-      </a>
     </form>
 
   </section>
@@ -108,7 +115,31 @@
   <section class="results">
     <h2 class="visually-hidden">Результаты поиска</h2>
     <p>Найденно гостицин: 38</p>
-    <select name="" id=""></select>
+
+    <label class="visually-hidden ">Сортировка</label>
+    <select name="sort" id="sort-select">
+    <option value="popular">Сначало популярное</option>
+    <option value="cheap">Сначало дешевое</option>
+    <option value="expensive">Сначало дорогое</option>
+    </select>
+
+    <ul>
+      <li><a href="catalog.html?view=list" class="button button-light">
+        <span class="visually-hidden">Показать список</span>
+      </a>
+    </li>
+      <li>
+        <a class="button" href="catalog.html?view=card">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="catalog.html?view=tile">
+          <span class="visually-hidden">Показать плитки</span>
+        </a>
+      </li>
+    </ul>
+
     <ul class="result-list">
       <li class="result-item">
         <article class="hotel-card">
@@ -128,7 +159,7 @@
           <h3 class="hotel-name">Villas at Poco Diablo</h3>
           <p>Гостиница</p>
           <p class="hotel-price"><span class="visually-hidden">Цена</span> от 5000 руб.</p>
-          <button class="button-favorite" type="button">В избранное</button>
+          <button class="button-favorite" type="button">В избранном</button>
           <a href="#" class="more-info">Подробнее</a>
           <p class="button-rating">Рейтинг: 9,2</p>
           <p class="stars-4"><span class="visually-hidden">4 звезды</span></p>
@@ -161,7 +192,7 @@
     </ul>
     <ul class="paginator">
       <li class="paginator-item">
-        <a class="paginator-link" href="#">1</a>
+        <a class="paginator-link">1</a>
       </li>
       <li class="paginator-item">
         <a class="paginator-link" href="#">2</a>
@@ -173,19 +204,7 @@
         <a class="paginator-link" href="#">4</a>
       </li>
       <li class="paginator-item">
-        <a class="paginator-link" href="#">5</a>
-      </li>
-      <li class="paginator-item">
-        <a class="paginator-link" href="#">6</a>
-      </li>
-      <li class="paginator-item">
-        <a class="paginator-link" href="#">7</a>
-      </li>
-      <li class="paginator-item">
-        <a class="paginator-link" href="#">8</a>
-      </li>
-      <li class="paginator-item">
-        <a class="paginator-link" href="#">9</a>
+        <span class="paginator-link">...</span>
       </li>
       <li class="paginator-item">
         <a class="paginator-link" href="#">10</a>
