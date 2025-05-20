@@ -6,11 +6,11 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <a class="logo" href="#">
         <img
           class="logo-img"
-          src="images/logo.svg"
+          src="images/Logo.svg"
           width="140"
           height="70"
           alt="Логотип города Седона"
@@ -50,12 +50,12 @@
       </nav>
     </header>
 
-    <main class="main-index">
-      <section class="hero-section">
+    <main class="main-index" data-test="main">
+      <section class="hero-section" data-test="hero">
         <h1 class="visually-hidden">Sedona</h1>
         <img
           class="logo"
-          src="images/welcome.svg"
+          src="images/Welcome.svg"
           width="458"
           height="352"
           alt="Welcome to gorgeus Sedona, because the Grand Canyon sucks"
@@ -64,7 +64,7 @@
           Седона — небольшой городок в Аризоне, заслуживающий большего!
         </p>
       </section>
-      <section class="advantages">
+      <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Преимущества города Sedona</h2>
         <p class="slogan-description">
           Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
@@ -106,7 +106,7 @@
               Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
             <img
-              src="images/DevilsBridge.jpg"
+              src="images/Devils-Bridge.jpg"
               width="800"
               height="385"
               alt="Мост дьявола"
@@ -137,7 +137,7 @@
           </li>
         </ul>
       </section>
-      <section class="find">
+      <section class="find" data-test="search">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
         <h2 class="find-title">Заинтересовались?</h2>
         <p class="find-description">
@@ -146,7 +146,7 @@
         </p>
         <button class="button-find">Поиск гостиницы в Седоне</button>
       </section>
-      <section class="subscription">
+      <section class="subscription" data-test="subscribe">
         <h2 class="subscription-title">Подпишитесь на рассылку</h2>
         <p class="subscription-description">
           Только полезная информация и никакого спама,<br />честное
@@ -154,9 +154,9 @@
         </p>
         <img
           class="filer-img"
-          src="images/filter.jpg"
-          width=""
-          height=""
+          src="images/Subscription.png"
+          width="1200px"
+          height="414px"
           alt="Фон фильтров"
         />
         <form
@@ -181,7 +181,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <a href="/"><img src="" alt="Logo" /></a>
       <ul class="footer-social-list">
         <li class="footer-social-item">
@@ -216,9 +216,6 @@
         </li>
       </ul>
       <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a href="https://htmlacademy.ru/">
-        <img src="#" alt="HTML academy" />
-      </a>
       <p class="about-text">
         Сделано в
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">

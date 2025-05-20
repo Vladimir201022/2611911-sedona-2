@@ -6,11 +6,11 @@
   <title>Sedona</title>
 </head>
 
-<header class="page-header">
+<header class="page-header" data-test="header">
   <a class="logo" href="#">
     <img
       class="logo-img"
-      src="images/logo.svg"
+      src="images/Logo.svg"
       width="140"
       height="70"
       alt="Логотип города Седона"
@@ -41,7 +41,7 @@
     </ul>
   </nav>
 </header>
-<main>
+<main class ="main-catalog" data-test="main">
   <section class="catalog-products">
     <h1 class="">Каталог гостиниц</h1>
 
@@ -62,9 +62,9 @@
       <a class="logo" href="#">
         <img
           class="subscribe-img"
-          src="images/subscription.png"
-          width=""
-          height=""
+          src="images/Filter.jpg"
+          width="1200px"
+          height="414px"
           alt="Фон окна подписки">
       </a>
       <fieldset class="catalog-filter-group">
@@ -159,7 +159,7 @@
     <ul class="result-list">
       <li class="result-item">
         <article class="hotel-card">
-          <img class="product-card-image" src="images/AmaraResort&Spa.jpg" width="300" height="212" alt="Расщелье у гостиницы Amara Resort & Spa">
+          <img class="product-card-image" src="images/Amara-Resort-Spa.jpg" width="300" height="212" alt="Расщелье у гостиницы Amara Resort & Spa">
           <h3 class="hotel-name">Amara Resort & Spa</h3>
           <p>Гостиница</p>
           <p class="hotel-price"><span class="visually-hidden">Цена</span> от 4000 руб.</p>
@@ -171,7 +171,7 @@
       </li>
       <li class="result-item">
         <article class="hotel-card">
-          <img class="product-card-image" src="images/VillasAtPocoDiablo.jpg" width="300" height="212" alt="Горы у гостиницы Villas at Poco Diablo">
+          <img class="product-card-image" src="images/Villas-AtPoco-Diablo.jpg" width="300" height="212" alt="Горы у гостиницы Villas at Poco Diablo">
           <h3 class="hotel-name">Villas at Poco Diablo</h3>
           <p>Гостиница</p>
           <p class="hotel-price"><span class="visually-hidden">Цена</span> от 5000 руб.</p>
@@ -183,7 +183,7 @@
       </li>
       <li class="result-item">
         <article class="hotel-card">
-          <img class="product-card-image" src="images/DesertQuailInn.jpg" width="300" height="212" alt="Горы у гостиницы Desert Quail Inn">
+          <img class="product-card-image" src="images/Desert-QuailInn.jpg" width="300" height="212" alt="Горы у гостиницы Desert Quail Inn">
           <h3 class="hotel-name">Desert Quail Inn</h3>
           <p>Гостиница</p>
           <p class="hotel-price"><span class="visually-hidden">Цена</span> от 2500 руб.</p>
@@ -195,7 +195,7 @@
       </li>
       <li class="result-item">
         <article class="hotel-card">
-          <img class="product-card-image" src="images/GreenTreeInn.jpg" width="300" height="212" alt="Горы у гостиницы GreenTree Inn">
+          <img class="product-card-image" src="images/n-Tree-Inn.jpg" width="300" height="212" alt="Горы у гостиницы GreenTree Inn">
           <h3 class="hotel-name">GreenTree Inn</h3>
           <p>Гостиница</p>
           <p class="hotel-price"><span class="visually-hidden">Цена</span> от 1500 руб.</p>
@@ -227,7 +227,7 @@
       </li>
     </ul>
   </section>
-  <section class="subscription">
+  <section class="subscription" data-test="subscribe">
     <h2 class="subscription-title">Подпишитесь на рассылку</h2>
     <p class="subscription-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -243,7 +243,7 @@
   </section>
 </main>
 
-<footer class="page-footer">
+<footer class="page-footer" data-test="footer">
   <ul class="footer-social-list">
     <li class="footer-social-item">
       <a class="button" href="https://t.me/htmlacademy" target="_blank" rel="noreferrer noopener">
