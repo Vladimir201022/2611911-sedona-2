@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family:"Pt Sans";
+  font-family:"PT Sans";
   font-style: normal;
   font-weight:700;
   src: url("../fonts/ptsans-700.woff2") format("woff2");
@@ -25,10 +25,10 @@ body{
 
 .navigation-link{
   font-weight: 700;
-  line-height:24px;
-  font-size:20px;
-  text-decoration:none;
-  color:#000000;
+  line-height: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .hero-section{
@@ -36,6 +36,7 @@ body{
   background-size: 100% auto, cover;
   background-repeat:no-repeat;
   background-position: left bottom, left top;
+  background-color:#3e6b8c  ;
 }
 
 .slogan-title{
@@ -50,7 +51,7 @@ body{
   font-size: 24px;
   line-height:28px;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 700;
   text-transform:uppercase;
 }
@@ -58,7 +59,7 @@ body{
 .advantages-description{
   font-weight:400;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .advantages-title-inner{
@@ -78,4 +79,46 @@ body{
 
 .advantage-light{
   background: #82b3d3;
+}
+.subscription{
+  background-image: url("../Images/Subscription.png");
+  background-size: 1200px 414,86px;
+  background-repeat: no-repeat;
+}
+
+section{
+  display: block;
+}
+
+input[type="email" i] {
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+.button{
+  text-align: center;
+  font-size: 20px;
+  line-height:36px;
+  font-weight:700;
+  background: #82b3d3;
+  color: #F2F2F2;
+  text-transform: uppercase;
+  font-family:"Pt Sans", sans-serif;
+}
+
+.footer-social-item-telegram{
+  background-image: url("../Images/telegram.svg");
+  background-repeat: no-repeat;
+  background-position: 0% ;
+}
+
+.footer-social-item-vk{
+  background-image: url("../Images/vk.svg");
+  background-repeat: no-repeat;
+  background-position: 0% ;
+}
+
+.footer-social-item-youtube{
+  background-image: url("../Images/youtube.svg");
+  background-repeat: no-repeat;
+  background-position: 0% ;
 }
